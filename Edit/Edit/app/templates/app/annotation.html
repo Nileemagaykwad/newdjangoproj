@@ -1,0 +1,63 @@
+{% extends "app/layout.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<link rel="stylesheet" type="text/css" href="http://w2ui.com/src/w2ui-1.5.rc1.min.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://w2ui.com/src/w2ui-1.5.rc1.min.js"></script>
+
+<h3>Annotation LOF Table</h3>
+
+<div class="jumbotron">
+    <br/>
+    <div id="grid" style="width: 100%; height: 350px;"></div>
+    <br/>
+</div>
+<script>
+
+    var column_list = JSON.parse('{{ column_list | escapejs }}')
+
+    function w2uiGrid(selector, column_list, api_url) {
+        // set width in screen
+        // var item_size = '' + (Math.floor(100 / column_list.length)) + '%';
+        var item_size = '200px';
+
+        // api endpoint for getting data
+        //var api_url = '/csvread/';
+
+        var newSelector = '#' + selector;
+        $(newSelector).w2grid({
+            name: selector,
+            header: 'List of Names',
+            method: 'GET'
+        });
+
+
+        // add columns dynamically
+        column_list.map(function (column) {
+            w2ui[selector].addColumn({field: column, caption: column, size: item_size, attr: 'align=center', sortable: true });
+        });
+
+        w2ui[selector].load(api_url);
+
+        // make URLs clickable
+        w2ui[selector].on('click', function (event) {
+            var content = event['originalEvent'].target.textContent;
+            if (content && content != '') {
+                if (content.indexOf('http://') > -1 || content.indexOf('https://') > -1) {
+                    window.open(content, '_blank')
+                }
+            }
+        })
+    }
+
+    w2uiGrid('grid', column_list, '/csvread/');
+
+
+</script>
+
+<p></p>
+
+{% endblock %}

@@ -1,0 +1,312 @@
+.h10 {
+    text-align: center;
+    font-family: Tahoma, Arial, sans-serif;
+    color: orange;
+    margin: 100px 0;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #808080;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: aqua;
+}
+
+.popup .close:hover {
+    color: orange;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.popup {
+}
+
+.selectedLabels {
+    display: none;
+    color: darkgrey;
+    font-size: x-large;
+    margin-top: 15px;
+}
+
+option {
+    background-color: ghostwhite !important;
+    filter: inherit
+}
+
+#button {
+    width: 6em;
+    border: 2px solid green;
+    background: #ffe;
+    border-radius: 5px;
+}
+
+a {
+    display: block;
+    width: 100%;
+    line-height: 58px;
+    text-align: center !important;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: red;
+    background: #eff;
+}
+
+a {
+    color: -webkit-link;
+    cursor: pointer;
+    text-align: center !important;
+    text-decoration-style: none;
+    text-decoration-color: initial;
+}
+
+.modal1-container {
+    margin: 60px auto;
+    padding-top: 0px;
+    position: relative;
+    width: 160px;
+}
+
+.modal1-container .modal1-btn {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    background: #446CB3;
+    font-size: 22px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 5px 5px -5px #333;
+    transition: background 0.3s ease-in;
+}
+
+.modal1-container .modal1-btn:hover {
+    background: #365690;
+}
+
+.modal1-container .modal1-content,
+.modal1-container .modal1-backdrop {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in;
+}
+
+.modal1-container .modal1-close {
+    color: #aaa;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding-top: 3px;
+    background: #fff;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal1-container .modal1-close:hover {
+    color: #333;
+}
+
+.modal1-container .modal1-content-btn {
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    bottom: 20px;
+    right: 30px;
+    background: #446CB3;
+    color: #fff;
+    width: 50px;
+    border-radius: 2px;
+    font-size: 14px;
+    height: 32px;
+    padding-top: 9px;
+    font-weight: normal;
+}
+
+.modal1-container .modal1-content-btn:hover {
+    color: #fff;
+    background: #365690;
+}
+
+.modal1-container #modal1-toggle {
+    display: none;
+}
+
+.modal1-container #modal1-toggle.active ~ .modal1-backdrop, .modal1-container #modal1-toggle:checked ~ .modal1-backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+}
+
+.modal1-container #modal1-toggle.active ~ .modal1-content, .modal1-container #modal1-toggle:checked ~ .modal1-content {
+    opacity: 1;
+    background-color: #fff;
+    max-width: 400px;
+    width: 400px;
+    height: 280px;
+    padding: 10px 30px;
+    position: fixed;
+    left: calc(50% - 200px);
+    top: 12%;
+    border-radius: 4px;
+    z-index: 999;
+    pointer-events: auto;
+    cursor: auto;
+    visibility: visible;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 400px) {
+    .modal1-container #modal1-toggle.active ~ .modal1-content, .modal1-container #modal1-toggle:checked ~ .modal1-content {
+        left: 0;
+    }
+}
+
+.modal-body {
+    position: relative;
+    padding-bottom: 42px;
+    max-width: 100%;
+}
+
+div.checkbox
+label {
+    display: inline-block
+}
+
+.CheckboxDiv {
+    float: left;
+    display: inline;
+    padding-left: 30px;
+}
+
+/*css to display the value of ID*/
+g {
+    color: aquamarine;
+    margin: 10px;
+}
+
+#accessGroup {
+    display: none;
+}
+
+.modal-footer {
+    margin-top: 259px;
+}
+
+.html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-align: center
+}
+
+.sub, sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: middle
+}
+
+a:hover, a:focus {
+    color: #eee;
+    text-decoration: underline
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 16px 6px 0;
+
+    line-height: normal
+}
+
+.form-control:-moz-placeholder {
+    color: #eee
+}
+
+.form-control::-moz-placeholder {
+    color: #eee
+}
+
+.form-control:-ms-input-placeholder {
+    color: #eee
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #eee
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #eee;
+    border: 1px solid #2cb98b;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px #eee;
+    box-shadow: inset 0 1px 1px #eee;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.btn-info {
+    color: #fff !important;
+    background-color: #2cb98b !important;
+    border-color: #2cb98b !important;
+}
+
+  /*for dropdown list*/
+    #accessReferencegenomeDD {
+        visibility: hidden;
+    }
+
+    .table-view {
+        display: table-row;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+
+

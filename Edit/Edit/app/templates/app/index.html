@@ -1,0 +1,60 @@
+{% extends "app/layout.html" %}
+
+{% load static %}
+<link rel="stylesheet" href="../../static/app/content/style.css">
+
+{% block content %}
+
+<div class="jumbotron">
+    <div align="center">
+        <select class="form-control" id="accessSpeciesDD" background-color="#eee">
+            <option hidden>Select species:</option>
+            <option value="1">maize</option>
+        </select>
+        <span class="selectedLabels" id="lblSelectedAccessGroupId"></span> <br/>
+
+
+        <select class="form-control" id="accessReferencegenomeDD">
+            <option hidden>select reference genome:</option>
+            <option value="1">B73v3-geneModelID</option>
+            <option value="2">B73v4GenemodelID</option>
+            <option value="3">B104_GeneModel</option>
+
+        </select>
+        <span class="selectedLabels" id="lblSelectedAccessGroupId2"></span> <br/>
+    </div>
+
+    <div align="center">
+
+
+    </div>
+    <div id="popGrid" style="width: 100%; height: 250px;"></div>
+    <div>
+        <br/>
+    </div>
+
+
+</div>
+<!--three buttons!!-->
+<div class="jumbotron" align="center">
+    <!--button that redirect to the annotaion page-->
+    <div class="btn-group" align="center">
+        <a id="annotation" class="btn btn-info btn-lg" role="button"
+           style="height:70px;width:120px;padding:20px;">Annotation</a>
+    </div>
+
+    <div class="btn-group" align="center">
+        <a class="btn btn-info btn-lg" role="button" style="height:70px;width:120px;padding:20px;">App
+            #1</a>
+    </div>
+
+    <div class="btn-group" align="right">
+        &nbsp;
+        <a href="" class="btn btn-info btn-lg" role="button" style="height:70px;width:120px;padding:20px;">App
+            #2</a>
+    </div>
+
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,41 @@
+{
+  "total": 6,
+  "records": [
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "test v4_gene_model",
+      "Created_by": "Matthew Begemann",
+      "Column_name": "v4_gene_model"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "test v4_start",
+      "Created_by": "Jesse Hoff",
+      "Column_name": "v4_start"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "test v4_end",
+      "Created_by": "Jesse Hoff",
+      "Column_name": "v4_end"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "test v4_chr",
+      "Created_by": "Jesse Hoff",
+      "Column_name": "v4_chr"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "test locus",
+      "Created_by": "Elhan Ersoz",
+      "Column_name": "locus"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "test entrez_gene",
+      "Created_by": "Elhan Ersoz",
+      "Column_name": "entrez_gene"
+    }
+  ]
+}

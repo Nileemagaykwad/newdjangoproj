@@ -1,0 +1,47 @@
+{
+  "total": 6,
+  "records": [
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "zea mays assembly version 3 gene id",
+      "Created_by": "Matthew Begemann",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "V3 gene model"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Zea mays assembly version 3 starting position",
+      "Created_by": "Jesse Hoff",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "V3 gene start"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Zea mays assembly version 3 ending position",
+      "Created_by": "Jesse Hoff",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "V3 gene end"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Zea mays assembly version 3 chromsome number. ",
+      "Created_by": "Jesse Hoff",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "V3 gene chromosome"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "indicates the transcript version which is typically referenced for annotation i.e. peptide order and exon inclusion.  ",
+      "Created_by": "Elhan Ersoz",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "canonical transcript"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "identifier for genbank ",
+      "Created_by": "Elhan Ersoz",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "genbank accesion"
+    }
+  ]
+}

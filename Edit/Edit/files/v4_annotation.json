@@ -1,0 +1,47 @@
+{
+  "total": 6,
+  "records": [
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "zea mays assembly version 4 gene model  id",
+      "Created_by": "Matthew Begemann",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "V4 gene model"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Zea mays assembly version 4 starting position",
+      "Created_by": "Jesse Hoff",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "V4 gene start"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Zea mays assembly version 4 ending position",
+      "Created_by": "Jesse Hoff",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "V4 gene end"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Zea mays assembly version 4 chromsome number. ",
+      "Created_by": "Jesse Hoff",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "V4 gene chromosome"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "",
+      "Created_by": "Elhan Ersoz",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "V4 gene locus id"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "NCBI entrez gene id for z mays v4",
+      "Created_by": "Elhan Ersoz",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "entrez gene id"
+    }
+  ]
+}

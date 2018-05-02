@@ -1,0 +1,82 @@
+{
+  "total": 11,
+  "records": [
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Zea mays b104 assembly gene id",
+      "Created_by": "Jesse Hoff",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "B104 gene id"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Zea mays PH207 assembly gene id",
+      "Created_by": "Jesse Hoff",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "PH207 gene id"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Zea mays leaf expression gradient location 1",
+      "Created_by": "Henry Priest",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "Zea mays tissue location one"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Zea mays leaf expression gradient location 2",
+      "Created_by": "Henry Priest",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "Zea mays tissue location two"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Zea mays leaf expression gradient location 4",
+      "Created_by": "Henry Priest",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "Zea mays tissue location 4"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Statistical assocation of gene with phenotype: Yield",
+      "Created_by": "Jesse Hoff",
+      "Source": "MAP results NAM",
+      "Column_name": "yield association"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Statistical assocation of gene with phenotype: Ear diameter",
+      "Created_by": "Jesse Hoff",
+      "Source": "MAP results NAM",
+      "Column_name": "ear diamter_association"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "gene functional description",
+      "Created_by": "Jesse Hoff",
+      "Source": "v3_v4_ref.txt from MaizeGDB",
+      "Column_name": "description"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Indicator of gene of interest in Elevate analysis of  photosynthesis phenotypic network ",
+      "Created_by": "Lev Morgan",
+      "Source": "Hand",
+      "Column_name": "Gene of Interest"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Indicator of annotated loss of function variation within gene",
+      "Created_by": "Lev Morgan",
+      "Source": "ELEVATE maize results",
+      "Column_name": "Contains Lof"
+    },
+    {
+      "Created_time": "Friday, Feb 1, 2013 6:00 AM",
+      "Description": "Gene Interval from partitions of Zea Mays v4",
+      "Created_by": "Jesse Hoff",
+      "Source": "MAP results NAM",
+      "Column_name": "Gene interval"
+    }
+  ]
+}
